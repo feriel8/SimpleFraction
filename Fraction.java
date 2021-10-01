@@ -19,4 +19,11 @@ public class Fraction {
 		  this.denominateur=1;
 		 }
 
+	public String toString() {
+		System.out.println("Fraction = "+ this.numerateur +"/" + this. denominateur);
+		return "Fraction : " + this.numerateur + "/" + this.denominateur;
+	
+	}
+	
+
 }
